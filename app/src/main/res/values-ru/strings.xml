@@ -1,0 +1,9 @@
+<resources>
+    <string name="weather">Погода</string>
+    <string name="setup">Настройка</string>
+    <string name="your_city">Ваш город</string>
+    <string name="search_city">Поиск города</string>
+    <string name="cities">Города</string>
+    <string name="error">Ошибка</string>
+    <string name="settings">Настройки</string>
+</resources>

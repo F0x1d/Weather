@@ -1,0 +1,10 @@
+<resources>
+    <string name="weather">Weather</string>
+    <string name="setup">Setup</string>
+    <string name="your_city">Your city</string>
+    <string name="search_city">Search city</string>
+    <string name="cities">Cities</string>
+    <string name="temp_placeholder" translatable="false">%s °C</string>
+    <string name="error">Error</string>
+    <string name="settings">Settings</string>
+</resources>

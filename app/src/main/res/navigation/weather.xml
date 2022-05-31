@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/weather"
+    app:startDestination="@id/WeatherFragment">
+
+    <fragment
+        android:id="@+id/SetupFragment"
+        android:name="com.f0x1d.weather.ui.fragment.SetupFragment"
+        android:label="@string/setup">
+        <action
+            android:id="@+id/action_SetupFragment_to_WeatherFragment"
+            app:destination="@id/WeatherFragment"
+            app:popUpTo="@id/SetupFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/WeatherFragment"
+        android:name="com.f0x1d.weather.ui.fragment.WeatherFragment"
+        android:label="@string/weather" >
+        <action
+            android:id="@+id/action_WeatherFragment_to_SetupFragment"
+            app:destination="@id/SetupFragment"
+            app:popUpTo="@id/WeatherFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>

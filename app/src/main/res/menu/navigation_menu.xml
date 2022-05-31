@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/weather"
+        android:title="@string/weather"
+        android:icon="@drawable/ic_weather" />
+
+    <item
+        android:id="@+id/cities"
+        android:title="@string/cities"
+        android:icon="@drawable/ic_city" />
+</menu>
